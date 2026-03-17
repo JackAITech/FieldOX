@@ -32,7 +32,7 @@ export default function PaywallGate({ children, feature = "this feature" }) {
           </Text>
           <View style={styles.pricingHint}>
             <Text style={styles.pricingLine}>
-              Start for <Text style={styles.pricingBold}>$1</Text> your first month
+              <Text style={styles.pricingBold}>7-day free trial</Text> — no charge today
             </Text>
             <Text style={styles.pricingLineSub}>then $9.99/mo · or $79/year</Text>
           </View>

@@ -46,7 +46,7 @@ export default function SettingsScreen() {
               <Text style={styles.upgradeDesc}>Unlock all features including compliance records, season analytics, and unlimited fields.</Text>
               <View style={styles.pricingRow}>
                 <View style={styles.pricePill}>
-                  <Text style={styles.pricePillText}>$1 first month</Text>
+                  <Text style={styles.pricePillText}>7-day free trial</Text>
                 </View>
                 <View style={[styles.pricePill, styles.pricePillGold]}>
                   <Text style={styles.pricePillText}>$79/year</Text>

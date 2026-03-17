@@ -78,10 +78,10 @@ router.get("/plans", (req, res) => {
         name: "Monthly",
         price: 9.99,
         currency: "USD",
-        introPrice: 1.00,
-        introPeriod: "1 month",
+        introPrice: 0,
+        introPeriod: "7 days",
         billingPeriod: "month",
-        description: "First month $1.00, then $9.99/month. Cancel anytime.",
+        description: "7-day free trial, then $9.99/month. Cancel anytime.",
         savings: null,
       },
       {

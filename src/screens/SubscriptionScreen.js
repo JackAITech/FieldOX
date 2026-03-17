@@ -14,8 +14,8 @@ const PLANS = [
     badge: null,
     price: "$9.99",
     period: "/ month",
-    intro: "$1.00 first month",
-    introSub: "then $9.99/mo",
+    intro: "7-day free trial",
+    introSub: "then $9.99/mo — cancel anytime",
     perMonth: "$9.99",
     highlight: false,
     rcIdentifier: "monthly",   // matches Offering package identifier in RevenueCat
@@ -66,7 +66,7 @@ export default function SubscriptionScreen({ onDismiss }) {
       Alert.alert(
         "Welcome to FieldOX!",
         plan.key === "monthly"
-          ? "Your first month is just $1.00. Enjoy full access to all features."
+          ? "Your 7-day free trial has started. Enjoy full access to all features."
           : "You're subscribed for the full year. Enjoy FieldOX!",
         [{ text: "Let's go", onPress: onDismiss }]
       );
@@ -167,7 +167,7 @@ export default function SubscriptionScreen({ onDismiss }) {
           <View style={styles.introCallout}>
             <Text style={styles.introCalloutIcon}>🎉</Text>
             <Text style={styles.introCalloutText}>
-              First month is only <Text style={styles.introCalloutBold}>$1.00</Text> — cancel anytime before renewal.
+              Try free for <Text style={styles.introCalloutBold}>7 days</Text> — cancel anytime before your trial ends.
             </Text>
           </View>
         )}
@@ -196,10 +196,10 @@ export default function SubscriptionScreen({ onDismiss }) {
           ) : (
             <>
               <Text style={styles.ctaBtnText}>
-                {selectedPlan === "monthly" ? "Start for $1.00" : "Subscribe for $79/year"}
+                {selectedPlan === "monthly" ? "Start Free Trial" : "Subscribe for $79/year"}
               </Text>
               <Text style={styles.ctaBtnSub}>
-                {selectedPlan === "monthly" ? "then $9.99/month" : "Less than $6.58/month"}
+                {selectedPlan === "monthly" ? "7 days free, then $9.99/month" : "Less than $6.58/month"}
               </Text>
             </>
           )}
