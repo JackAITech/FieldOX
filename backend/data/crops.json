@@ -1,0 +1,233 @@
+[
+  {
+    "id": "corn",
+    "name": "Corn",
+    "emoji": "🌽",
+    "category": "Grain",
+    "zones": {
+      "3": { "plantStart": "05-15", "plantEnd": "06-01", "harvestStart": "09-01", "harvestEnd": "10-01", "daysToMaturity": 90 },
+      "4": { "plantStart": "05-01", "plantEnd": "05-20", "harvestStart": "08-20", "harvestEnd": "09-20", "daysToMaturity": 85 },
+      "5": { "plantStart": "04-20", "plantEnd": "05-15", "harvestStart": "08-10", "harvestEnd": "09-10", "daysToMaturity": 80 },
+      "6": { "plantStart": "04-10", "plantEnd": "05-10", "harvestStart": "08-01", "harvestEnd": "09-01", "daysToMaturity": 78 },
+      "7": { "plantStart": "03-25", "plantEnd": "04-25", "harvestStart": "07-20", "harvestEnd": "08-20", "daysToMaturity": 75 },
+      "8": { "plantStart": "03-01", "plantEnd": "04-01", "harvestStart": "07-01", "harvestEnd": "08-01", "daysToMaturity": 72 },
+      "9": { "plantStart": "02-15", "plantEnd": "03-15", "harvestStart": "06-15", "harvestEnd": "07-15", "daysToMaturity": 70 },
+      "10": { "plantStart": "02-01", "plantEnd": "03-01", "harvestStart": "06-01", "harvestEnd": "07-01", "daysToMaturity": 68 }
+    },
+    "soilTemp": 50,
+    "spacing": "12 inches apart, rows 30-36 inches",
+    "sunlight": "Full sun",
+    "water": "1 inch per week",
+    "tips": "Plant when soil temperature reaches 50°F. Needs full sun and consistent moisture."
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "emoji": "🍅",
+    "category": "Vegetable",
+    "zones": {
+      "3": { "plantStart": "06-01", "plantEnd": "06-15", "harvestStart": "08-15", "harvestEnd": "09-30", "daysToMaturity": 75 },
+      "4": { "plantStart": "05-15", "plantEnd": "06-01", "harvestStart": "08-01", "harvestEnd": "09-20", "daysToMaturity": 72 },
+      "5": { "plantStart": "05-01", "plantEnd": "05-20", "harvestStart": "07-20", "harvestEnd": "09-15", "daysToMaturity": 70 },
+      "6": { "plantStart": "04-15", "plantEnd": "05-10", "harvestStart": "07-10", "harvestEnd": "09-10", "daysToMaturity": 68 },
+      "7": { "plantStart": "04-01", "plantEnd": "04-25", "harvestStart": "07-01", "harvestEnd": "09-01", "daysToMaturity": 65 },
+      "8": { "plantStart": "03-01", "plantEnd": "04-01", "harvestStart": "06-10", "harvestEnd": "08-15", "daysToMaturity": 65 },
+      "9": { "plantStart": "02-01", "plantEnd": "03-15", "harvestStart": "05-20", "harvestEnd": "07-20", "daysToMaturity": 60 },
+      "10": { "plantStart": "01-15", "plantEnd": "03-01", "harvestStart": "05-01", "harvestEnd": "07-01", "daysToMaturity": 60 }
+    },
+    "soilTemp": 60,
+    "spacing": "24-36 inches apart",
+    "sunlight": "Full sun (6-8 hours)",
+    "water": "1-2 inches per week",
+    "tips": "Transplant after last frost. Stake or cage plants. Consistent watering prevents blossom end rot."
+  },
+  {
+    "id": "soybean",
+    "name": "Soybean",
+    "emoji": "🫘",
+    "category": "Legume",
+    "zones": {
+      "3": { "plantStart": "05-20", "plantEnd": "06-10", "harvestStart": "09-10", "harvestEnd": "10-10", "daysToMaturity": 110 },
+      "4": { "plantStart": "05-10", "plantEnd": "06-01", "harvestStart": "09-01", "harvestEnd": "10-01", "daysToMaturity": 105 },
+      "5": { "plantStart": "05-01", "plantEnd": "05-25", "harvestStart": "08-20", "harvestEnd": "09-25", "daysToMaturity": 100 },
+      "6": { "plantStart": "04-20", "plantEnd": "05-15", "harvestStart": "08-10", "harvestEnd": "09-15", "daysToMaturity": 95 },
+      "7": { "plantStart": "04-10", "plantEnd": "05-01", "harvestStart": "08-01", "harvestEnd": "09-05", "daysToMaturity": 90 },
+      "8": { "plantStart": "04-01", "plantEnd": "04-25", "harvestStart": "07-20", "harvestEnd": "08-25", "daysToMaturity": 90 },
+      "9": { "plantStart": "03-15", "plantEnd": "04-15", "harvestStart": "07-01", "harvestEnd": "08-10", "daysToMaturity": 85 },
+      "10": { "plantStart": "03-01", "plantEnd": "04-01", "harvestStart": "06-15", "harvestEnd": "07-20", "daysToMaturity": 85 }
+    },
+    "soilTemp": 55,
+    "spacing": "2-4 inches apart, rows 30 inches",
+    "sunlight": "Full sun",
+    "water": "1 inch per week",
+    "tips": "Inoculate seeds with rhizobium for nitrogen fixation. Do not plant in same spot as last year."
+  },
+  {
+    "id": "wheat",
+    "name": "Wheat (Winter)",
+    "emoji": "🌾",
+    "category": "Grain",
+    "zones": {
+      "3": { "plantStart": "09-01", "plantEnd": "09-20", "harvestStart": "07-15", "harvestEnd": "08-15", "daysToMaturity": 240 },
+      "4": { "plantStart": "09-10", "plantEnd": "10-01", "harvestStart": "07-10", "harvestEnd": "08-10", "daysToMaturity": 240 },
+      "5": { "plantStart": "09-20", "plantEnd": "10-10", "harvestStart": "07-01", "harvestEnd": "08-01", "daysToMaturity": 240 },
+      "6": { "plantStart": "10-01", "plantEnd": "10-20", "harvestStart": "06-20", "harvestEnd": "07-20", "daysToMaturity": 240 },
+      "7": { "plantStart": "10-10", "plantEnd": "11-01", "harvestStart": "06-10", "harvestEnd": "07-10", "daysToMaturity": 240 },
+      "8": { "plantStart": "10-20", "plantEnd": "11-10", "harvestStart": "06-01", "harvestEnd": "07-01", "daysToMaturity": 240 },
+      "9": { "plantStart": "11-01", "plantEnd": "11-20", "harvestStart": "05-20", "harvestEnd": "06-20", "daysToMaturity": 240 },
+      "10": { "plantStart": "11-10", "plantEnd": "12-01", "harvestStart": "05-10", "harvestEnd": "06-10", "daysToMaturity": 240 }
+    },
+    "soilTemp": 34,
+    "spacing": "1 inch apart, rows 6-7 inches",
+    "sunlight": "Full sun",
+    "water": "12-15 inches per growing season",
+    "tips": "Plant in fall for winter wheat. Needs cold vernalization period to flower. Well-drained soil is key."
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "emoji": "🥔",
+    "category": "Root Vegetable",
+    "zones": {
+      "3": { "plantStart": "05-15", "plantEnd": "06-01", "harvestStart": "08-20", "harvestEnd": "09-30", "daysToMaturity": 100 },
+      "4": { "plantStart": "05-01", "plantEnd": "05-20", "harvestStart": "08-10", "harvestEnd": "09-20", "daysToMaturity": 95 },
+      "5": { "plantStart": "04-10", "plantEnd": "05-01", "harvestStart": "07-25", "harvestEnd": "09-10", "daysToMaturity": 90 },
+      "6": { "plantStart": "03-20", "plantEnd": "04-15", "harvestStart": "07-10", "harvestEnd": "08-25", "daysToMaturity": 85 },
+      "7": { "plantStart": "03-01", "plantEnd": "04-01", "harvestStart": "06-20", "harvestEnd": "08-10", "daysToMaturity": 80 },
+      "8": { "plantStart": "02-15", "plantEnd": "03-15", "harvestStart": "06-01", "harvestEnd": "07-20", "daysToMaturity": 80 },
+      "9": { "plantStart": "01-15", "plantEnd": "02-15", "harvestStart": "05-01", "harvestEnd": "06-20", "daysToMaturity": 75 },
+      "10": { "plantStart": "01-01", "plantEnd": "02-01", "harvestStart": "04-15", "harvestEnd": "06-01", "daysToMaturity": 75 }
+    },
+    "soilTemp": 45,
+    "spacing": "12 inches apart, rows 30-36 inches",
+    "sunlight": "Full sun",
+    "water": "1-2 inches per week",
+    "tips": "Plant seed potatoes 4 inches deep. Hill soil around plants as they grow. Stop watering 2 weeks before harvest."
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "emoji": "🥕",
+    "category": "Root Vegetable",
+    "zones": {
+      "3": { "plantStart": "05-10", "plantEnd": "06-01", "harvestStart": "08-01", "harvestEnd": "10-01", "daysToMaturity": 75 },
+      "4": { "plantStart": "04-25", "plantEnd": "05-20", "harvestStart": "07-20", "harvestEnd": "09-20", "daysToMaturity": 72 },
+      "5": { "plantStart": "04-10", "plantEnd": "05-10", "harvestStart": "07-05", "harvestEnd": "09-10", "daysToMaturity": 70 },
+      "6": { "plantStart": "03-25", "plantEnd": "04-25", "harvestStart": "06-25", "harvestEnd": "09-01", "daysToMaturity": 68 },
+      "7": { "plantStart": "03-10", "plantEnd": "04-10", "harvestStart": "06-10", "harvestEnd": "08-20", "daysToMaturity": 65 },
+      "8": { "plantStart": "02-20", "plantEnd": "03-20", "harvestStart": "05-25", "harvestEnd": "08-01", "daysToMaturity": 65 },
+      "9": { "plantStart": "01-20", "plantEnd": "03-01", "harvestStart": "05-01", "harvestEnd": "07-15", "daysToMaturity": 60 },
+      "10": { "plantStart": "01-01", "plantEnd": "02-15", "harvestStart": "04-15", "harvestEnd": "07-01", "daysToMaturity": 60 }
+    },
+    "soilTemp": 45,
+    "spacing": "2-3 inches apart, rows 12 inches",
+    "sunlight": "Full sun to partial shade",
+    "water": "1 inch per week",
+    "tips": "Direct sow — do not transplant. Loosen soil 12 inches deep. Thin seedlings to prevent crowding."
+  },
+  {
+    "id": "lettuce",
+    "name": "Lettuce",
+    "emoji": "🥬",
+    "category": "Leafy Green",
+    "zones": {
+      "3": { "plantStart": "05-15", "plantEnd": "07-01", "harvestStart": "07-01", "harvestEnd": "09-01", "daysToMaturity": 50 },
+      "4": { "plantStart": "04-25", "plantEnd": "06-15", "harvestStart": "06-20", "harvestEnd": "08-20", "daysToMaturity": 48 },
+      "5": { "plantStart": "04-10", "plantEnd": "06-01", "harvestStart": "06-05", "harvestEnd": "08-10", "daysToMaturity": 45 },
+      "6": { "plantStart": "03-20", "plantEnd": "05-15", "harvestStart": "05-20", "harvestEnd": "08-01", "daysToMaturity": 45 },
+      "7": { "plantStart": "03-01", "plantEnd": "04-20", "harvestStart": "05-01", "harvestEnd": "07-15", "daysToMaturity": 45 },
+      "8": { "plantStart": "02-15", "plantEnd": "04-01", "harvestStart": "04-15", "harvestEnd": "07-01", "daysToMaturity": 45 },
+      "9": { "plantStart": "01-15", "plantEnd": "03-15", "harvestStart": "03-20", "harvestEnd": "06-15", "daysToMaturity": 45 },
+      "10": { "plantStart": "10-01", "plantEnd": "02-01", "harvestStart": "12-01", "harvestEnd": "04-01", "daysToMaturity": 45 }
+    },
+    "soilTemp": 40,
+    "spacing": "8-12 inches apart",
+    "sunlight": "Partial shade in summer, full sun in spring/fall",
+    "water": "1-2 inches per week",
+    "tips": "Cool-season crop. Bolts (goes to seed) in heat. Plant in spring and fall for best results."
+  },
+  {
+    "id": "bean",
+    "name": "Green Bean",
+    "emoji": "🫘",
+    "category": "Legume",
+    "zones": {
+      "3": { "plantStart": "06-01", "plantEnd": "06-20", "harvestStart": "08-01", "harvestEnd": "09-15", "daysToMaturity": 55 },
+      "4": { "plantStart": "05-15", "plantEnd": "06-10", "harvestStart": "07-20", "harvestEnd": "09-05", "daysToMaturity": 55 },
+      "5": { "plantStart": "05-01", "plantEnd": "06-01", "harvestStart": "07-05", "harvestEnd": "08-25", "daysToMaturity": 52 },
+      "6": { "plantStart": "04-20", "plantEnd": "05-20", "harvestStart": "06-20", "harvestEnd": "08-15", "daysToMaturity": 50 },
+      "7": { "plantStart": "04-01", "plantEnd": "05-10", "harvestStart": "06-05", "harvestEnd": "08-01", "daysToMaturity": 50 },
+      "8": { "plantStart": "03-15", "plantEnd": "04-25", "harvestStart": "05-20", "harvestEnd": "07-20", "daysToMaturity": 50 },
+      "9": { "plantStart": "03-01", "plantEnd": "04-15", "harvestStart": "05-01", "harvestEnd": "07-10", "daysToMaturity": 50 },
+      "10": { "plantStart": "02-15", "plantEnd": "04-01", "harvestStart": "04-20", "harvestEnd": "07-01", "daysToMaturity": 50 }
+    },
+    "soilTemp": 60,
+    "spacing": "4-6 inches apart, rows 18-24 inches",
+    "sunlight": "Full sun",
+    "water": "1 inch per week",
+    "tips": "Direct sow after last frost. Do not over-water. Harvest pods when firm and before seeds bulge."
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "emoji": "🎃",
+    "category": "Gourd",
+    "zones": {
+      "3": { "plantStart": "06-01", "plantEnd": "06-15", "harvestStart": "09-15", "harvestEnd": "10-15", "daysToMaturity": 110 },
+      "4": { "plantStart": "05-20", "plantEnd": "06-05", "harvestStart": "09-05", "harvestEnd": "10-10", "daysToMaturity": 105 },
+      "5": { "plantStart": "05-10", "plantEnd": "05-25", "harvestStart": "08-25", "harvestEnd": "10-01", "daysToMaturity": 100 },
+      "6": { "plantStart": "05-01", "plantEnd": "05-20", "harvestStart": "08-15", "harvestEnd": "09-25", "daysToMaturity": 100 },
+      "7": { "plantStart": "04-15", "plantEnd": "05-10", "harvestStart": "08-01", "harvestEnd": "09-15", "daysToMaturity": 95 },
+      "8": { "plantStart": "04-01", "plantEnd": "05-01", "harvestStart": "07-20", "harvestEnd": "09-01", "daysToMaturity": 95 },
+      "9": { "plantStart": "03-15", "plantEnd": "04-15", "harvestStart": "07-05", "harvestEnd": "08-20", "daysToMaturity": 90 },
+      "10": { "plantStart": "03-01", "plantEnd": "04-01", "harvestStart": "06-20", "harvestEnd": "08-10", "daysToMaturity": 90 }
+    },
+    "soilTemp": 65,
+    "spacing": "5-6 feet apart",
+    "sunlight": "Full sun",
+    "water": "1 inch per week",
+    "tips": "Needs lots of space. Plant on hills. Water at base to prevent fungal disease. Harvest when fully orange."
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "emoji": "🥒",
+    "category": "Vegetable",
+    "zones": {
+      "3": { "plantStart": "06-01", "plantEnd": "06-15", "harvestStart": "08-01", "harvestEnd": "09-15", "daysToMaturity": 60 },
+      "4": { "plantStart": "05-20", "plantEnd": "06-05", "harvestStart": "07-20", "harvestEnd": "09-05", "daysToMaturity": 58 },
+      "5": { "plantStart": "05-10", "plantEnd": "05-25", "harvestStart": "07-10", "harvestEnd": "08-25", "daysToMaturity": 55 },
+      "6": { "plantStart": "05-01", "plantEnd": "05-15", "harvestStart": "07-01", "harvestEnd": "08-15", "daysToMaturity": 55 },
+      "7": { "plantStart": "04-15", "plantEnd": "05-05", "harvestStart": "06-15", "harvestEnd": "08-05", "daysToMaturity": 52 },
+      "8": { "plantStart": "04-01", "plantEnd": "04-25", "harvestStart": "06-01", "harvestEnd": "07-25", "daysToMaturity": 52 },
+      "9": { "plantStart": "03-15", "plantEnd": "04-15", "harvestStart": "05-15", "harvestEnd": "07-15", "daysToMaturity": 50 },
+      "10": { "plantStart": "03-01", "plantEnd": "04-01", "harvestStart": "05-01", "harvestEnd": "07-01", "daysToMaturity": 50 }
+    },
+    "soilTemp": 65,
+    "spacing": "36-60 inches (vining), 12 inches (bush)",
+    "sunlight": "Full sun",
+    "water": "1 inch per week",
+    "tips": "Warm-season crop. Train on trellis to save space. Harvest frequently to encourage more production."
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "emoji": "🌻",
+    "category": "Specialty",
+    "zones": {
+      "3": { "plantStart": "05-20", "plantEnd": "06-10", "harvestStart": "08-20", "harvestEnd": "09-25", "daysToMaturity": 90 },
+      "4": { "plantStart": "05-10", "plantEnd": "06-01", "harvestStart": "08-10", "harvestEnd": "09-15", "daysToMaturity": 90 },
+      "5": { "plantStart": "05-01", "plantEnd": "05-20", "harvestStart": "08-01", "harvestEnd": "09-10", "daysToMaturity": 85 },
+      "6": { "plantStart": "04-20", "plantEnd": "05-15", "harvestStart": "07-20", "harvestEnd": "09-01", "daysToMaturity": 85 },
+      "7": { "plantStart": "04-10", "plantEnd": "05-05", "harvestStart": "07-10", "harvestEnd": "08-20", "daysToMaturity": 80 },
+      "8": { "plantStart": "04-01", "plantEnd": "04-25", "harvestStart": "07-01", "harvestEnd": "08-10", "daysToMaturity": 80 },
+      "9": { "plantStart": "03-15", "plantEnd": "04-15", "harvestStart": "06-15", "harvestEnd": "07-25", "daysToMaturity": 75 },
+      "10": { "plantStart": "03-01", "plantEnd": "04-01", "harvestStart": "06-01", "harvestEnd": "07-15", "daysToMaturity": 75 }
+    },
+    "soilTemp": 50,
+    "spacing": "6-24 inches depending on variety",
+    "sunlight": "Full sun (minimum 6 hours)",
+    "water": "1 inch per week, drought tolerant once established",
+    "tips": "Fast growing. Direct sow after last frost. Plant in succession for continuous harvest. Birds love the seeds."
+  }
+]

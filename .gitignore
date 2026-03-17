@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# Data store (runtime data — not source)
+backend/store/data/
+
+# Expo / React Native
+frontend/.expo/
+frontend/dist/
+frontend/web-build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
