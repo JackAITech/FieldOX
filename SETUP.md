@@ -4,7 +4,10 @@
 ```
 farmer-app/
 ├── backend/        ← Node.js + Express API
-└── frontend/       ← React Native (Expo) mobile app
+├── src/                ← React Native (Expo) app source
+├── App.js
+├── app.json
+├── package.json
 ```
 
 ---
@@ -49,7 +52,7 @@ Test it's working:
 
 ## Step 4: Configure Frontend API URL
 
-Open `frontend/src/services/api.js`
+Open `src/services/api.js`
 
 If running on a **physical phone**, change:
 ```js
@@ -67,7 +70,7 @@ If using the **Expo emulator**, keep `localhost`.
 ## Step 5: Start the Frontend App
 
 ```bash
-cd frontend
+
 npx expo start
 ```
 
@@ -129,7 +132,7 @@ In-app purchases require a real device + custom Expo build. Expo Go cannot proce
 3. Create an Offering named `default` with packages for each product
 
 ### Step 5 — Add API Keys to app
-Edit `frontend/src/context/SubscriptionContext.js`:
+Edit `src/context/SubscriptionContext.js`:
 ```js
 const RC_API_KEYS = {
   ios:     "appl_YOUR_KEY_HERE",    // RevenueCat → App → iOS → API Key
@@ -151,7 +154,7 @@ Then in RevenueCat Dashboard → Integrations → Webhooks, point to:
 npm install -g eas-cli
 eas login
 
-cd frontend
+
 eas build --platform ios    # or android
 ```
 
